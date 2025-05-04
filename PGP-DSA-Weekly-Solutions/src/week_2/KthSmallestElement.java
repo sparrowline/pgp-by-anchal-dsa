@@ -5,7 +5,7 @@ import java.util.List;
 
 //https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1
 public class KthSmallestElement {
-
+ //best approach for this can quick select with On^2 tc and O1 sc;
 	public static int kthSmallest(int[] arr, int k) {
 		// Your code here
 //

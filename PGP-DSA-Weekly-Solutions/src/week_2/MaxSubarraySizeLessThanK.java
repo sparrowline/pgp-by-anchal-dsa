@@ -3,7 +3,19 @@ package week_2;
 public class MaxSubarraySizeLessThanK {
 	    // Function to check if all subarrays of size 'size' have sum < k
 	    private static boolean isValid(int[] arr, int k, int size) {
-	      return false;
+	    	int windowSum = 0;
+
+	        for (int i = 0; i < size; i++) {
+	            windowSum += arr[i];
+	        }
+	        if (windowSum >= k) return false;
+
+	        for (int i = size; i < arr.length; i++) {
+	            windowSum += arr[i] - arr[i - size];
+	            if (windowSum >= k) return false;
+	        }
+
+	        return true;
 	    }
 
 	    // Main function to find the maximum subarray size with all sums < k

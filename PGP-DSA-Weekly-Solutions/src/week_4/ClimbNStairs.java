@@ -1,5 +1,5 @@
 package week_4;
-
+///https://leetcode.com/problems/climbing-stairs/description/
 public class ClimbNStairs {
 
 	public static int climbNstairs(int n) {
@@ -8,6 +8,9 @@ public class ClimbNStairs {
 		
 		return climbNstairs(n-1)+climbNstairs(n-2);
 	}
+	
+	
+	
 	
 	public static void main(String[] args) {
         System.out.println(climbNstairs(0)); // Expected: 1 (1 way: no steps)

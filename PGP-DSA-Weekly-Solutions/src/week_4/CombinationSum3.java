@@ -4,6 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CombinationSum3 {
+	
+
+    //Approach:
+    // 1.defining variables
+    // 2.calling helper;
+    // 3.prepare helper
+    //     1.helper
+    //                   1. base case sum==k size==k if true?
+    //                   2.invalid cases .
+    //                   3.backtrack for correct elements/sum;
 
 	    public List<List<Integer>> combinationSum3(int k, int n) {
 	        List<List<Integer>> result = new ArrayList();

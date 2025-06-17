@@ -2,7 +2,7 @@ package week_4;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//https://www.youtube.com/watch?v=b7AYbpM5YrE&t=21s striver  explanation 
 public class PowerSet {
 	public List<List<Integer>> powerSet(int[] nums) {
 		// your code goes here

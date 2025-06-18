@@ -2,7 +2,7 @@ package week_4;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//https://www.youtube.com/watch?v=fNjY-M_6VpI
 public class GenerateParanthesis {
 	public List<String> generateParenthesis(int n) {
 

@@ -12,6 +12,9 @@ public class Lambda_expresion1 {
 		
 		MathOperation multi = (a,b)->a*b;
 		System.err.println(multi.operation(8, 6));
+		
+		MathOperation div = (a,b)->(a/b);
+		System.out.println("div of a,b is : "+div.operation(89, 9));
 	}
 
 	
@@ -27,7 +30,6 @@ class SumOperation implements MathOperation{
 	
 	
 }
-
 
 interface MathOperation{
 	int operation(int a,int b);

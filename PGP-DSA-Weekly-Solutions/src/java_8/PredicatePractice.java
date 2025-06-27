@@ -2,7 +2,7 @@ package java_8;
 
 import java.util.function.Predicate;
 
-//Predicate is a functional interface (boolean valued function)
+//Predicate is a functional interface (boolean valued function) --> checks the condition;
 public class PredicatePractice {
 	
 	public static void main(String[] args) {
